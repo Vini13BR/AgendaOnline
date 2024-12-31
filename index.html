@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Online</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda Pessoal Online</h1>
+        </header>
+        <main>
+            <div class="container-form">
+                <form id="formCadastro">
+                    <input type="text" placeholder="Nome" required id="inputNome">
+                    <input type="tel" placeholder="Numero 11-99999-9999" required id="inputNumero" >
+                    <button type="submit" id="buttonCadastro">Cadastrar</button>
+                </form>
+            </div>
+            <div class="container-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Telefone
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpoTabela">
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

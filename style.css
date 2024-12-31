@@ -1,0 +1,59 @@
+
+/*RESET*/
+*{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Container*/
+.container{
+    padding: 16px;
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*CONTAINER FORM*/
+.container-form{
+    display: flex;
+    margin: 75px 24px;
+    padding: 16px;
+}
+
+/*CONTAINER TABLE*/
+.container-table{
+    display: flex;
+    margin: 50px 24px;
+    padding: 16px;
+}
+
+/*header*/
+header h1{
+    text-align: center;
+}
+
+/*Formulário*/
+form{
+    display: flex;
+}
+
+form input{
+    margin-right: 5px;
+}
+
+/*Tabela*/
+table{
+    border-collapse: separate;
+    border-spacing: 70px 0;
+}
